@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #000000, transparent);
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.btnArea{
+    text-align: center;
+}
+.btncls{
+    background-color: #d94ae0;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px; 
+    cursor: pointer; 
+    margin: 10px;
+}
+.btncls:hover{
+    background-color: #000000;
+    color: white;
+    transition:  01s ease-in;
+}
+.model{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.modelCloseBtn{
+    margin-left: 550px;
+}
+.modelCloseBtn{
+    background-color: #d94ae0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modelCloseBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 01s ease-in;
+}
+h2{
+    color: #d94ae0;
+}
+p{
+    font-size: 16px;
+}
+.hidden{
+    display: none;
+}
